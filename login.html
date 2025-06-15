@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 400px; margin: 50px auto; }
+        label { display: block; margin: 15px 0 5px; }
+        input[type="text"], input[type="password"] {
+            width: 100%; padding: 8px; box-sizing: border-box;
+        }
+        button { margin-top: 20px; padding: 10px 15px; cursor: pointer; }
+        nav a { margin: 0 10px; font-size: 14px; text-decoration: none; color: #007bff; }
+    </style>
+</head>
+<body>
+    <h2>Login to Your Account</h2>
+    <form action="#" method="POST" id="loginForm">
+        <label for="username">Username or Email:</label>
+        <input type="text" id="username" name="username" required />
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        
+        <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+    <nav><a href="index.html">Home</a></nav>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Upload Picture</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 500px; margin: 50px auto; }
+        label { display: block; margin: 15px 0 5px; }
+        input[type="file"] {
+            padding: 5px;
+        }
+        button { margin-top: 20px; padding: 10px 15px; cursor: pointer; }
+        nav a { margin: 0 10px; font-size: 14px; text-decoration: none; color: #007bff; }
+    </style>
+</head>
+<body>
+    <h2>Upload Your Picture</h2>
+    <form action="#" method="POST" enctype="multipart/form-data" id="uploadForm">
+        <label for="picture">Select picture to upload:</label>
+        <input type="file" id="picture" name="picture" accept="image/*" required />
+        
+        <button type="submit">Upload</button>
+    </form>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="profile.html">Profile</a>
+    </nav>
+</body>
+</html>
